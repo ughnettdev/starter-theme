@@ -8,9 +8,15 @@
  */
 ?>
 
+
+
     </div><!-- #main -->
 
 </div><!-- #page -->
+
+<?php wp_nav_menu( array( 'theme_location' => 'footer' ) ); ?>
+
+
 
 <footer id="colophon" role="contentinfo">
     <div id="copyright">
